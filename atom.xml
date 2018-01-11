@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>esun</title>
   
-  <subtitle>esun BLOG</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.cys2.com/"/>
-  <updated>2017-12-21T08:51:36.055Z</updated>
+  <updated>2017-12-27T08:00:29.121Z</updated>
   <id>http://www.cys2.com/</id>
   
   <author>
@@ -21,16 +21,17 @@
     <link href="http://www.cys2.com/2017/12/21/antd-admin-demo/"/>
     <id>http://www.cys2.com/2017/12/21/antd-admin-demo/</id>
     <published>2017-12-21T08:43:16.485Z</published>
-    <updated>2017-12-21T08:51:36.055Z</updated>
+    <updated>2017-12-27T08:00:29.121Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/img/antd-admin-demo.gif" alt="Banner"></p><p><a href="https://github.com/eshun/antd-admin-demo" target="_blank" rel="noopener">antd-admin-demo</a></p><p>基于ant design框架的开箱即用的中台前端/设计解决方案。<br>增加左菜单和顶部菜单的切换、多种主题颜色的切换</p><h2 id="ant帮助"><a href="#ant帮助" class="headerlink" title="ant帮助"></a>ant帮助</h2><ul><li>预览：<a href="http://preview.pro.ant.design" target="_blank" rel="noopener">http://preview.pro.ant.design</a></li><li>首页：<a href="http://pro.ant.design" target="_blank" rel="noopener">http://pro.ant.design</a></li><li>antd：<a href="http://ant.design" target="_blank" rel="noopener">http://ant.design</a></li></ul><h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul><li>:gem: <strong>优雅美观</strong>：基于 Ant Design 体系精心设计</li><li>:triangular_ruler: <strong>常见设计模式</strong>：提炼自中后台应用的典型页面和场景</li><li>:rocket: <strong>最新技术栈</strong>：使用 React/dva/antd 等前端前沿技术开发</li><li>:iphone: <strong>响应式</strong>：针对不同屏幕大小设计</li><li>:art: <strong>主题</strong>：可配置的主题满足多样化的品牌诉求</li><li>:globe_with_meridians: <strong>国际化</strong>：内建业界通用的国际化方案</li><li>:gear: <strong>最佳实践</strong>：良好的工程实践助您持续产出高质量代码</li><li>:1234: <strong>Mock 数据</strong>：实用的本地数据调试方案</li><li>:white_check_mark: <strong>UI 测试</strong>：自动化测试保障前端产品质量</li></ul><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br><span class="line">$ npm start               <span class="comment"># 访问 http://localhost:8000</span></span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<!-- toc --><p><img src="/img/antd-admin-demo.gif" alt="Banner"></p><p><a href="https://github.com/eshun/antd-admin-demo" target="_blank" rel="noopener">antd-admin-demo</a></p><p>基于ant design框架的开箱即用的中台前端/设计解决方案。<br>增加左菜单和顶部菜单的切换、多种主题颜色的切换</p><h2 id="ant帮助"><a class="markdownIt-Anchor" href="#ant帮助"></a> ant帮助</h2><h3 id="预览"><a class="markdownIt-Anchor" href="#预览"></a> 预览</h3><ul><li>预览：<a href="http://preview.pro.ant.design" target="_blank" rel="noopener">http://preview.pro.ant.design</a></li><li>首页：<a href="http://pro.ant.design" target="_blank" rel="noopener">http://pro.ant.design</a></li><li>antd：<a href="http://ant.design" target="_blank" rel="noopener">http://ant.design</a></li></ul><h2 id="特性"><a class="markdownIt-Anchor" href="#特性"></a> 特性</h2><ul><li>💎 <strong>优雅美观</strong>：基于 Ant Design 体系精心设计</li><li>📐 <strong>常见设计模式</strong>：提炼自中后台应用的典型页面和场景</li><li>🚀 <strong>最新技术栈</strong>：使用 React/dva/antd 等前端前沿技术开发</li><li>📱 <strong>响应式</strong>：针对不同屏幕大小设计</li><li>🎨 <strong>主题</strong>：可配置的主题满足多样化的品牌诉求</li><li>🌐 <strong>国际化</strong>：内建业界通用的国际化方案</li><li>⚙️ <strong>最佳实践</strong>：良好的工程实践助您持续产出高质量代码</li><li>🔢 <strong>Mock 数据</strong>：实用的本地数据调试方案</li><li>✅ <strong>UI 测试</strong>：自动化测试保障前端产品质量</li></ul><h2 id="使用"><a class="markdownIt-Anchor" href="#使用"></a> 使用</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install</span><br><span class="line">$ npm start               <span class="comment"># 访问 http://localhost:8000</span></span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;img src=&quot;/img/antd-admin-demo.gif&quot; alt=&quot;Banner&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/eshun/antd-admin-demo&quot; target=&quot;_blank&quot; rel=&quot;noopener
+        &lt;!-- toc --&gt;
+&lt;p&gt;&lt;img src=&quot;/img/antd-admin-demo.gif&quot; alt=&quot;Banner&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/eshun/antd-admin-demo&quot; target=&quot;_blank&quot; 
       
     
     </summary>
@@ -51,14 +52,14 @@
     <published>2017-12-21T07:17:47.190Z</published>
     <updated>2017-12-21T08:40:39.349Z</updated>
     
-    <content type="html"><![CDATA[<p>Warning: Cannot download winCodeSign, attempt #1: Error: connect ETIMEDOUT 52.216.32.56:443</p><h3 id="手动下载："><a href="#手动下载：" class="headerlink" title="手动下载："></a>手动下载：</h3><blockquote><p><a href="https://github.com/electron-userland/electron-builder-binaries/releases/tag/winCodeSign-1.9.0" target="_blank" rel="noopener">https://github.com/electron-userland/electron-builder-binaries/releases/tag/winCodeSign-1.9.0</a><br><a href="https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-3.0.1.13" target="_blank" rel="noopener">https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-3.0.1.13</a><br><a href="https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.3.0" target="_blank" rel="noopener">https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.3.0</a></p></blockquote><h3 id="百度网盘"><a href="#百度网盘" class="headerlink" title="百度网盘"></a>百度网盘</h3><blockquote><p>链接：<a href="https://pan.baidu.com/s/1o7JMdp4" target="_blank" rel="noopener">https://pan.baidu.com/s/1o7JMdp4</a> 密码：62y6</p></blockquote><h3 id="解压放本地"><a href="#解压放本地" class="headerlink" title="解压放本地"></a>解压放本地</h3><blockquote><p>macOS: ~/Library/Caches/electron-builder<br>Linux: ~/.cache/electron-builder<br>windows: %LOCALAPPDATA%\electron-builder\cache</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>Warning: Cannot download winCodeSign, attempt #1: Error: connect ETIMEDOUT 52.216.32.56:443</p><h3><span id="shou-dong-xia-zai"> 手动下载：</span></h3><blockquote><p><a href="https://github.com/electron-userland/electron-builder-binaries/releases/tag/winCodeSign-1.9.0" target="_blank" rel="noopener">https://github.com/electron-userland/electron-builder-binaries/releases/tag/winCodeSign-1.9.0</a><br><a href="https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-3.0.1.13" target="_blank" rel="noopener">https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-3.0.1.13</a><br><a href="https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.3.0" target="_blank" rel="noopener">https://github.com/electron-userland/electron-builder-binaries/releases/tag/nsis-resources-3.3.0</a></p></blockquote><h3><span id="bai-du-wang-pan"> 百度网盘</span></h3><blockquote><p>链接：<a href="https://pan.baidu.com/s/1o7JMdp4" target="_blank" rel="noopener">https://pan.baidu.com/s/1o7JMdp4</a> 密码：62y6</p></blockquote><h3><span id="jie-ya-fang-ben-di"> 解压放本地</span></h3><blockquote><p>macOS: ~/Library/Caches/electron-builder<br>Linux: ~/.cache/electron-builder<br>windows: %LOCALAPPDATA%\electron-builder\cache</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;Warning: Cannot download winCodeSign, attempt #1: Error: connect ETIMEDOUT 52.216.32.56:443&lt;/p&gt;
-&lt;h3 id=&quot;手动下载：&quot;&gt;&lt;a href=&quot;#手动下载：&quot; class=&quot;he
+&lt;h3&gt;&lt;span id=&quot;shou-dong-xia-zai&quot;&gt; 手动下载：&lt;/
       
     
     </summary>
