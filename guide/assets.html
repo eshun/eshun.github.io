@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>静态资源 | esun</title>
-    <meta name="description" content="esun 迁移 vuepress">
+    <title>静态资源 | 葱头</title>
+    <meta name="description" content="葱头 迁移 vuepress">
     <link rel="icon" href="/logo.png">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#3eaf7c">
@@ -20,7 +20,7 @@
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
-      esun
+      葱头
     </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><a href="/note/" class="nav-link">笔记</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">手册</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="/dev/docker/" class="nav-link">docker</a></li><li class="dropdown-item"><!----><a href="/dev/go/" class="nav-link">go</a></li><li class="dropdown-item"><!----><a href="/dev/react/" class="nav-link">react</a></li></ul></div></div><div class="nav-item"><a href="/cool_station/" class="nav-link">酷站</a></div><!----></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/note/" class="nav-link">笔记</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">手册</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="/dev/docker/" class="nav-link">docker</a></li><li class="dropdown-item"><!----><a href="/dev/go/" class="nav-link">go</a></li><li class="dropdown-item"><!----><a href="/dev/react/" class="nav-link">react</a></li></ul></div></div><div class="nav-item"><a href="/cool_station/" class="nav-link">酷站</a></div><!----></nav><!----></div><div class="page"><div class="content"><h1 id="静态资源"><a href="#静态资源" aria-hidden="true" class="header-anchor">$</a> 静态资源</h1><h2 id="相对路径"><a href="#相对路径" aria-hidden="true" class="header-anchor">$</a> 相对路径</h2><p>所有的 Markdown 文件都会被 webpack 编译成 Vue 组件，因此你可以，并且<strong>应该更倾向于</strong>使用相对路径（Relative URLs）来引用所有的静态资源：</p><div class="language-md line-numbers-mode"><pre class="language-md"><code><span class="token url">![An image](./image.png)</span>
 </code></pre><div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>同样地，这在 <code>*.vue</code> 文件的模板中一样可以工作，图片将会被 <code>url-loader</code> 和 <code>file-loader</code> 处理，在运行生成静态文件的构建任务时，文件会被复制到正确的位置。</p><p>除此之外，你也使用 <code>~</code> 前缀来明确地指出这是一个 webpack 的模块请求，这将允许你通过 webpack 别名来引用文件或者 npm 的依赖：</p><div class="language-md line-numbers-mode"><pre class="language-md"><code><span class="token url">![Image from alias](~@alias/image.png)</span>
 <span class="token url">![Image from dependency](~some-dependency/image.png)</span>
