@@ -10065,7 +10065,8 @@
                     "VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。",
                 },
               ],
-              footer: "Copyright © 2018-present 葱头",
+              footer:
+                "Copyright © 2018-present 葱头 <a class='text-color' href='https://beian.miit.gov.cn/'  target='_blank'>闽ICP备13010036号</a>",
             },
           },
           {key: "v-3c4564a0f4e62", path: "/about.html", lastUpdated: null},
